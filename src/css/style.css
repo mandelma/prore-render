@@ -1,0 +1,162 @@
+html, body {
+
+    /*min-width: 100vw;*/
+    /*min-height: 100vh;*/
+}
+/*body {*/
+/*    min-height: 100vh;*/
+/*    width: 100vw;*/
+/*    overflow-x: hidden;*/
+/*}*/
+.bg {
+    /*height: 100vh;*/
+    position:fixed;
+    top:100px;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow-y: scroll;
+    /*overflow-x: hidden;*/
+    background: linear-gradient(#4c4747, #121215) ;
+    /*background-image: url('../assets/247.png');*/
+}
+.login {
+    background-color: #2e2b2b;
+    border-radius: 1%;
+    opacity: 0.9;
+    padding: 7px;
+}
+.register {
+    background-color: #2e2b2b;
+    opacity: 0.9;
+    padding: 7px;
+}
+.forgot {
+    margin-top: 100px;
+    background-color: #2e2b2b;
+    border-radius: 1%;
+    opacity: 0.9;
+    padding: 7px;
+}
+/*Nav avatar dropdown*/
+.profile-info {
+    background-color: #2e2b2b;
+    text-align: left;
+    border-radius: 10%;
+    opacity: 1;
+    margin: 0 3px 13px 0;
+    padding: 13px;
+}
+.edit-profile-avatar h3{
+    border: 1px solid #ddd;
+}
+.profile-main {
+    background-color: #2e2b2b;
+
+    opacity: 0.9;
+    padding: 3px;
+}
+.edit-profile table {
+    color: #ddd;
+}
+
+
+/*.calendar-info {*/
+/*    background-color: #2e2b2b;*/
+
+/*    height: 500px;*/
+/*    overflow-y: scroll;*/
+
+/*    padding: 13px;*/
+/*}*/
+
+.client-form {
+    background-color: #2e2b2b;
+    box-shadow: 0.3em 0.3em 1em rgba(104,101,101,0.6);
+    border-radius: 10px;
+    opacity: 0.9;
+    padding: 13px;
+}
+.pro-form {
+    background-color: #2e2b2b;
+    box-shadow: 0.3em 0.3em 1em rgba(104,101,101,0.6);
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-top: 30px;
+    padding: 13px;
+}
+.pro-panel-header {
+    text-align: center;
+    background-color: #2e2b2b;
+    border-radius: 50%;
+    opacity: 0.9;
+    padding: 30px;
+}
+.pro-panel-header .header-content {
+
+}
+
+.pro-panel {
+    background-color: #2e2b2b;
+    opacity: 0.9;
+    padding: 7px;
+}
+.pro-panel-feedback {
+    background-color: #2e2b2b;
+    opacity: 0.9;
+    border: 1px solid #999;
+    padding: 10px;
+
+}
+.edit-profession {
+    background-color: #2e2b2b;
+    border: 1px solid #999;
+    opacity: 0.9;
+    padding: 7px;
+}
+.edit-price {
+    background-color: #2e2b2b;
+    border: 1px solid #999;
+    opacity: 0.9;
+    padding: 7px;
+}
+
+
+.client-header {
+    background-color: #2e2b2b;
+    border-radius: 50%;
+    opacity: 0.9;
+    padding: 27px;
+}
+.client-orders {
+    background-color: #2e2b2b;
+    border-radius: 1%;
+    opacity: 0.9;
+    padding: 17px;
+}
+.client-result-header {
+    background-color: #2e2b2b;
+    border-radius: 50%;
+    opacity: 0.9;
+    padding: 27px;
+}
+.client-result {
+    background-color: #2e2b2b;
+    border-radius: 1%;
+    opacity: 1;
+    padding: 17px;
+}
+.client-final-header {
+    margin: 30px auto;
+    width: 300px;
+    color: cadetblue;
+    padding: 17px;
+    background-color: #2e2b2b;
+    border-radius: 50%;
+}
+.client-final {
+    background-color: #2e2b2b;
+    border-radius: 1%;
+    opacity: 1;
+    padding: 17px;
+}

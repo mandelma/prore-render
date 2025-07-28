@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738452261758",
+    "project_id": "prokeikkatori-9e9c7",
+    "storage_bucket": "prokeikkatori-9e9c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738452261758:android:2e52706d04181d9827812f",
+        "android_client_info": {
+          "package_name": "com.example.prokeikkatori"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDerkCnpDAehJktWl5Uf5HMZqBzzeR6iiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
