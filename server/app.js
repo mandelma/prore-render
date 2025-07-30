@@ -118,7 +118,7 @@ app.use(cors(corsOptions))
 
 if (process.env.RENDER === 'true') {
     console.log("App running in Render");
-    app.use(express.static('dist'))
+    //app.use(express.static('dist'))
 } else if (process.env.DYNO) {
     console.log("App running in heroku");
 
