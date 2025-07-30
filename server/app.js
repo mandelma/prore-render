@@ -135,12 +135,14 @@ console.log(`🧠 Running on Node.js version: ${process.version}`);
 //     next();
 // });
 
+app.use(express.static('dist'))
+
 
 //app.use(serveStatic(path.join(__dirname, '../dist')));
 
 //It should be for Heroku
-//app.use(express.static(path.join(__dirname, '../dist')))
-app.use(serveStatic(path.join(__dirname, '../dist')));
+
+//app.use(serveStatic(path.join(__dirname, '../dist')));
 
 
 //app.use(express.static('./uploads'));
