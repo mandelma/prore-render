@@ -111,14 +111,14 @@ const corsOptions ={
 
 app.use(cors(corsOptions))
 
-
+app.use(history());
 
 // It's working for Render
 //app.use(express.static('dist'))
 
 if (process.env.RENDER === 'true') {
     console.log("App running in Render");
-    app.use(express.static('dist'))
+    //app.use(express.static('dist'))
 } else if (process.env.DYNO) {
     console.log("App running in heroku");
 
@@ -137,7 +137,7 @@ console.log(`🧠 Running on Node.js version: ${process.version}`);
 
 
 //app.use(serveStatic(path.join(__dirname, '../dist')));
-app.use(history());
+
 //It should be for Heroku
 //app.use(express.static(path.join(__dirname, '../dist')))
 app.use(serveStatic(path.join(__dirname, '../dist')));

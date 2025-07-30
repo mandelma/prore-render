@@ -20,7 +20,7 @@
 
             </MDBCol>
             <MDBCol lg="8">
-              <h1 style="color: white;text-shadow: 2px 2px 5px #dd7052; font-family: fantasy, Papyrus;">-PROKEIKKATORI-</h1>
+              <h1 style="color: white;text-shadow: 2px 2px 5px #dd7052; font-family: fantasy, Papyrus;">--PROKEIKKATORI--</h1>
               <h1 class="solution">{{ t('speedIsImportant') }}</h1>
 
             </MDBCol>
