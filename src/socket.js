@@ -6,11 +6,29 @@ import { io } from "socket.io-client";
 
 let URL = "";
 
+// if (process.env.NODE_ENV === 'production') {
+//     //console.log('Production mode enabled');
+//     URL = "https://prokeikkatori-f43699030e18.herokuapp.com/"
+// } else {
+//     //console.log('Development mode enabled');
+//     URL = "http://localhost:3001";
+// }
+
 if (process.env.NODE_ENV === 'production') {
-    //console.log('Production mode enabled');
-    URL = "https://prokeikkatori-f43699030e18.herokuapp.com/"
+    if (process.env.RENDER === 'true') {
+        console.log("App is in Render");
+        URL = "https://line-app-pro.onrender.com"
+        //app.use(express.static('dist'))
+    } else if (process.env.DYNO) {
+        console.log("App is in heroku");
+        URL = "https://prokeikkatori-f43699030e18.herokuapp.com/"
+    } else {
+        console.log('Local or unknown platform');
+        URL = "http://localhost:3001";
+    }
+
 } else {
-    //console.log('Development mode enabled');
+    console.log('Local or unknown platform');
     URL = "http://localhost:3001";
 }
 
