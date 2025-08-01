@@ -22,11 +22,7 @@ if (process.env.NODE_ENV === 'production') {
     } else if (process.env.DYNO) {
         console.log("App is in heroku");
         URL = "https://prokeikkatori-f43699030e18.herokuapp.com/"
-    } else {
-        console.log('Local or unknown platform');
-        URL = "http://localhost:3001";
     }
-
 } else {
     console.log('Local or unknown platform');
     URL = "http://localhost:3001";
